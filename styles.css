@@ -4,7 +4,9 @@ margin-left: 10%;
 margin-top: -5%;
 margin-right: 30%;
 }
-
+.kaka{
+    background: transparent;
+}
 body{
     background: url(./kanchanara-fsSGgTBoX9Y-unsplash.jpg);
     width: 100%;
@@ -51,10 +53,11 @@ body{
 }
 #my-div h1{
     font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;;
-    color: rgb(236, 236, 236);
+    color: darkorchid;
     justify-content: center;
     margin-top: 10%;
     font-size: 400%;
+    font-weight: 800;
     display: inline-block;
     margin: 0 0.5rem;
     animation: zoomInDown;
@@ -69,7 +72,7 @@ background-color: rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
 }
 #my-div h3{
-    color: whitesmoke  ;
+    color: darkmagenta;
     font-weight: 800;
     display: inline-block;
     margin: 0 0.5rem;
@@ -86,7 +89,7 @@ background-color: rgb(0, 0, 0);
         transition: background 0.5s, tranform 0.5s;
 }
 #my-div div:hover {
-    background: rgb(139, 74, 20);
+    background: rgb(146, 107, 76);
     transform: translate(-10px);
 }
 #my-div a{
@@ -126,6 +129,7 @@ nav ul li {
 }
 
 nav ul li a {
+    
     color: #fff;
     text-decoration: none;
     font-size: 22px;
@@ -143,7 +147,12 @@ nav ul li a::after {
     bottom: -6px;
     transition: 0.5s;
 }
-
+nav ol li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    font-weight: 400;
+}
 nav ul li a:hover::after {
     width: 100%;
 }
